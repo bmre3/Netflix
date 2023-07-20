@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(img/arkaplan.jpg);
+    background-size: cover;
+}
+
+.a-link{
+    color: white;
+}
+
+.a-link:hover{
+    color: gray;
+}
+
+.loginbox{
+    height: 30vh;
+}
+
+
+.sec-row{
+    height: 60vh;
+}
+
+.sec-row .col-sm-5{
+    background-color: black;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.white{
+    color: white;
+}
+
+.gray{
+    color: gray;
+}
+
+footer{
+    background-color: black;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5));
+}
+
+.footer-content{
+    color: gray;
+}
+
+footer ul li{
+    margin-bottom: 1rem;
+}

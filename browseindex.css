@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(img/arkaplan.jpg);
+    background-size: cover;
+}
+
+.btn{
+    color: white;
+}
+
+.a-link{
+    color: gray;
+}
+
+.a-link:hover{
+    color:white;
+}
+
+.header-row{
+    height: 80vh;
+}
+
+footer{
+    background-color: black;
+}
+
+footer ul li{
+    color: white;
+    margin-bottom: 1rem;
+}

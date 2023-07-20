@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+
+.btn{
+    color: white;
+}
+
+.a-link{
+    color: gray;
+}
+
+.a-link:hover{
+    color:rgb(255, 255, 255);
+}
+
+.section-1{
+    background-color: antiquewhite;
+}
+
+.section-1 ul li{
+    list-style: none;
+}
+
+.section-1 ul li a{
+    text-decoration: none;
+}
+
+img::after{
+    content: "Mervan";
+}
+
+footer ul li{
+    color: gray;
+    margin-bottom: 2rem;
+   
+}
+
+.gri{
+    color: gray;
+}

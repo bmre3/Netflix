@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(img/arkaplan.jpg);
+    background-size: cover;
+}
+
+.a-link{
+    color: white;
+}
+
+.a-link:hover{
+    color: red;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dropdown-second:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.header-row{
+    height: 80vh;
+}
+
+.accordion-button{
+    color: white;
+    background-color: rgb(66, 66, 66);
+}
+
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: rgb(48, 47, 47);
+}
+
+.accordion-button::after{
+    background-image: url(img/icons8-plus-math-50.png);
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(img/icons8-subtract-48.png);
+}
+
+footer ul li{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+hr{
+    border: 3px solid white;
+    width: 100%;
+}

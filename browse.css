@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+img{
+    max-width: 100%;
+}
+
+.a-link{
+    color: white;
+}
+
+.header-row{
+    height: 60vh;
+}
+
+.hover img:hover{
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.bottom button{
+    background-color: rgb(43, 43, 43) !important;
+    color: gray !important;
+}
+
+.bottom button:hover{
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+p{
+    color: gray;
+}
+
+
